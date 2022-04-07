@@ -1,15 +1,16 @@
 import styled from "styled-components";
 
-export const ProductsContainer = styled.div`
+export const ProductsContainer = styled.div `
     margin-left: 2.25rem;
     margin-right: 1.3125rem;
 `
-export const ProductWrapper = styled.div`
+export const ProductWrapper = styled.div `
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 `
 
-export const PostContainer = styled.div`
+export const PostContainer = styled.div `
     width: 30rem;
     height: 20rem;
     border-radius: 1rem;
@@ -18,7 +19,7 @@ export const PostContainer = styled.div`
     position: relative;
 `
 
-export const PostTextContainer = styled.div`
+export const PostTextContainer = styled.div `
     width: 25rem;
     height: 7rem;
     background-color: #636262;
@@ -29,7 +30,7 @@ export const PostTextContainer = styled.div`
     left: 2rem;
 `
 
-export const PostText = styled.h4`
+export const PostText = styled.h4 `
     font-size: 1.7rem;
     font-weight: 700;
     line-height: 2rem;
@@ -38,7 +39,7 @@ export const PostText = styled.h4`
     padding-left: 1rem;
 `
 
-export const LoadMore = styled.button`
+export const LoadMore = styled.button `
     width: 20rem;
     height: 4rem;
     border-radius: 0.5rem;
