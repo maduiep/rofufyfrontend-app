@@ -12,7 +12,7 @@ const DashMain = () => {
     <DashMainContainer>
         <TopPost />
         <ImageSlider />
-        <TopPost di/>
+        <TopPost/>
         <Products />
     </DashMainContainer>
   )
